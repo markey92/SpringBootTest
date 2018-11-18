@@ -1,11 +1,15 @@
-package com.markey.com.markey.annotations;
+package com.markey.com.markey.annotations.Scheduled;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import java.util.Calendar;
 
-@Component
+/**
+ * 去注释component打开定时器
+ */
+//@Component
+
 public class MyScheduled {
 
     @Scheduled(cron = "0/2 * * * * ?")
