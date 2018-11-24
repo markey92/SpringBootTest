@@ -1,6 +1,6 @@
 package com.markey.annotations;
 
-import com.markey.com.markey.annotations.Lazy.MyLazy;
+import com.markey.annotations.Lazy.MyLazy;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

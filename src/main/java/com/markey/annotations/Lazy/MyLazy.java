@@ -1,4 +1,4 @@
-package com.markey.com.markey.annotations.Lazy;
+package com.markey.annotations.Lazy;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;

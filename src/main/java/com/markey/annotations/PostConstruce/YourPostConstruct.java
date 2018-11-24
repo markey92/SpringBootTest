@@ -1,4 +1,4 @@
-package com.markey.com.markey.annotations.PostConstruce;
+package com.markey.annotations.PostConstruce;
 
 import org.springframework.stereotype.Component;
 

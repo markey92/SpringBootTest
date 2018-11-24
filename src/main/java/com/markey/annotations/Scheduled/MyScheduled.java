@@ -1,4 +1,4 @@
-package com.markey.com.markey.annotations.Scheduled;
+package com.markey.annotations.Scheduled;
 
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
