@@ -10,11 +10,4 @@ public class HiBoy {
     public void sayHello() {
         System.out.println("hi, " + name);
     }
-
-    @PostConstruct
-    public void init() {
-        //注解注入属性后，会调用@PostConstruct的方法
-        this.sayHello();
-    }
-
 }
