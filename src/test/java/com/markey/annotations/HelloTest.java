@@ -1,9 +1,6 @@
 package com.markey.annotations;
 
-import com.markey.myannotation.name.NameConfig;
-import com.markey.myannotation.name.Xiaobai;
-import com.markey.myannotation.name.Xiaohong;
-import com.markey.myannotation.name.Xiaolan;
+import com.markey.myannotation.name.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,5 +30,11 @@ public class HelloTest {
     public void HelloXiaolanTest() {
         Xiaolan xiaolan = new Xiaolan();
         xiaolan.sayHi();
+    }
+
+    @Test
+    public void HelloXiaolvTest() {
+        Xiaolv xiaolv = new Xiaolv();
+        xiaolv.sayHi();
     }
 }

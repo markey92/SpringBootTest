@@ -1,9 +1,8 @@
 package com.markey.myannotation.name;
 
+@Name("小绿")
+public class Xiaolv extends Person{
 
-public class Xiaolan extends Person{
-
-    @Name("小蓝")
     private String name;
 
     public void sayHi() {
