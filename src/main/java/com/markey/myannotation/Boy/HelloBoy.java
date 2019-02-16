@@ -1,7 +1,6 @@
-package com.markey.annotations.Boy;
+package com.markey.myannotation.Boy;
 
 import org.springframework.stereotype.Service;
-import javax.annotation.PostConstruct;
 
 @Service
 public class HelloBoy {

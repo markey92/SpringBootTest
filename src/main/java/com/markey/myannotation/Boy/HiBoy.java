@@ -1,6 +1,4 @@
-package com.markey.annotations.Boy;
-
-import javax.annotation.PostConstruct;
+package com.markey.myannotation.Boy;
 
 public class HiBoy {
 

@@ -1,8 +1,8 @@
-package com.markey.annotations.Girl;
+package com.markey.myannotation.Girl;
 
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class HelloGirl {
 
     @Girl("小红")

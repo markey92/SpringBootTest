@@ -1,13 +1,12 @@
-package com.markey.annotations.Girl;
+package com.markey.myannotation.Boy;
 
 import org.springframework.stereotype.Component;
-
 import java.lang.annotation.*;
 
-@Target({ElementType.METHOD}) //基于Spring AOP的注解只能作用在方法上
+@Target({ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Component
-public @interface Girl {
+public @interface Boy {
     String value() default "";
 }

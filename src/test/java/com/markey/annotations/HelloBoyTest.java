@@ -1,6 +1,6 @@
 package com.markey.annotations;
 
-import com.markey.annotations.Boy.HelloBoy;
+import com.markey.myannotation.Boy.HelloBoy;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,5 +1,6 @@
 package com.markey;
 
+import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication(exclude={SecurityAutoConfiguration.class})
 @EnableScheduling
 @EnableAspectJAutoProxy
+@Configurable
 public class SpringBootStartApplication {
 
     public static void main(String[] args) {

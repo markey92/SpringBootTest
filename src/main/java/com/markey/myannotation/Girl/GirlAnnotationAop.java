@@ -1,4 +1,4 @@
-package com.markey.annotations.Girl;
+package com.markey.myannotation.Girl;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
